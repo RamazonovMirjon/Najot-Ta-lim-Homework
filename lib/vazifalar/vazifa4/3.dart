@@ -41,6 +41,7 @@ class _ShoppingPageTwoState extends State<ShoppingPageTwo> {
               Container(
                 margin: const EdgeInsets.symmetric(vertical: 20),
                 width: double.infinity,
+                height: 70,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
                   children: [
@@ -51,8 +52,7 @@ class _ShoppingPageTwoState extends State<ShoppingPageTwo> {
                     persons('Shoes', 5),
                     persons('New in', 6),
                     persons('New in', 7),
-                    persons('New in', 8),
-                    persons('New in', 9),
+                    
                   ],
                 ),
               ),

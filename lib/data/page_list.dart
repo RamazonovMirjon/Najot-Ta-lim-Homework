@@ -23,6 +23,8 @@ class PageData {
     PageModel('Shopping_4.1', '15.02.2022', '_image', const ShopPageHome()),
     PageModel('Shopping_4.2', '15.02.2022', '_image', const ShoppingPageOne()),
     PageModel('Shopping_4.3', '15.02.2022', '_image', const ShoppingPageTwo()),
+    PageModel('Shopping_4.3', '15.02.2022', '_image', const ShoppingPageTwo()),
+
   ];
 
   static List<PageModel> get pages => _pages;
